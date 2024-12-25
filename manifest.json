@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Yeet Google AI",
+  "version": "1.0",
+
+  "description": "Yeets Google AI.",
+
+  "icons": {
+    "48": "icons/yeet-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/search*"],
+      "js": ["yeet.js"]
+    }
+  ]
+}
